@@ -77,15 +77,15 @@ footer {
 }
 
 #aboutMeBox{
-	/*display: inline-block;*/
-	clear: both;
+	display: inline-block;
 	width: 650px;
-/*	border-color: #dddddd
-	border-style: solid;
-    border-size: 2px;*/
+	background-color: white;
+	/*border-color: black;*/
+	border: solid black;
+    border-size: 2px;
 }
 
-#aboutMeContainer{
+#containerBox{
 	/*display:inline-block;*/
 /*	clear: both;*/
 	width: 960px;
@@ -106,5 +106,9 @@ footer {
 */
 #sideBar{
 	width: 270px;
-	float: left;
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	border: solid black;
+    border-size: 2px;
 }	
