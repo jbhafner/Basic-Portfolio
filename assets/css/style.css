@@ -1,0 +1,110 @@
+/* .mainHeader{
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background-color: #4aaaa5;
+} */
+
+header {
+  padding: 10px;
+  /*margin-bottom: 20px;*/
+  color: #ffffff;
+  /*background-color: #4aaaa5;*/
+  font-family: 'Georgia', Times, 'Times New Roman', sans-serif;
+  border-color: #cccccc;
+}
+
+
+body {
+	/*color: #777777;*/
+	/*background-color: #ffffff;*/
+	border-color: #dddddd; 
+	font-size: 18px;
+	line-height: 32px;
+	background: url("../images/bgMemphis.png") repeat 0 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 960px;
+	}
+
+section {
+	padding: 20px;
+	margin-bottom: 20px;
+	/*background: #ccc;*/
+	width: 960px;
+	border-color: #dddddd
+	border-style: solid;
+    border-bottom: solid; #dddddd;
+}	
+
+footer {
+	padding: 20px;
+	clear: both;
+	background-color: #666666;
+	/*width: 960px;*/
+	text-align: center;
+}
+
+.clearfix::after{
+	content:"";
+	display:inline-block;
+	clear: both;
+}
+
+#myName{
+	float: left;
+	background-color: #4aaaa5;
+	font-size: 24px;
+	/*display: inline;*/
+	width: 33%;
+}
+
+#navMenu{
+	font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
+	font-size: 14px;
+	float: left;
+	/*display: inline;*/
+	width: 600px;
+	text-align: right;
+}
+
+#full {
+	/*width: 960px;*/
+	overflow: auto;
+	clear: both;
+	background: eee#;
+	height: 100px;
+/*	float: left; */
+}
+
+#aboutMeBox{
+	/*display: inline-block;*/
+	clear: both;
+	width: 650px;
+/*	border-color: #dddddd
+	border-style: solid;
+    border-size: 2px;*/
+}
+
+#aboutMeContainer{
+	/*display:inline-block;*/
+/*	clear: both;*/
+	width: 960px;
+}
+
+
+#myPhoto{
+/*	width: 75px;
+	height: 75px;*/
+	float: left;
+	margin: 10px;
+	}
+
+/*#myBio{
+	width: 250px;
+	float: left;
+}
+*/
+#sideBar{
+	width: 270px;
+	float: left;
+}	
